@@ -12,9 +12,6 @@ GO
 
 -- Write your answer below this line
 ---------------------------------------------------------------
-SELECT Color, COUNT(*) AS ProductCount
-FROM Production.Product
-GROUP BY Color
-ORDER BY ProductCount DESC;
+
 
 

@@ -25,19 +25,7 @@
 USE AdventureWorks2025;
 GO
 
--- Part 1
-SELECT DISTINCT COALESCE(Color, 'No color') AS Color
-FROM Production.Product
-ORDER BY Color;
+-- Write your answer below this line
+---------------------------------------------------------------
 
--- Part 2
-SELECT
-    COUNT(*)              AS Products,
-    COUNT(Color)          AS ColorNotNull,
-    COUNT(DISTINCT Color) AS DistinctColors
-FROM Production.Product;
-
--- Part 3
-SELECT COUNT(*) AS ColorSizeCombos
-FROM (SELECT DISTINCT Color, Size FROM Production.Product) AS d;
 

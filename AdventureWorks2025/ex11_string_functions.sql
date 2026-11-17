@@ -30,12 +30,5 @@ GO
 
 -- Write your answer below this line
 ---------------------------------------------------------------
-SELECT
-    COUNT(*) AS People,
-    COUNT(FirstName + ' ' + MiddleName + ' ' + LastName)      AS FullNamePlus,
-    COUNT(CONCAT(FirstName, ' ', MiddleName, ' ', LastName))  AS FullNameConcat,
-    SUM(CASE WHEN MiddleName IS NULL THEN 1 ELSE 0 END)       AS NoMiddle
-FROM Person.Person
-WHERE LastName = 'Adams';
 
 
