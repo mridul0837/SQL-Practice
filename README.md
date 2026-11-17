@@ -15,8 +15,13 @@ You write the query underneath, run it, and compare with the model answer.
 | `ex05_where_like_in` | Pattern matching with `LIKE`, lists with `IN` |
 | `ex06_where_null_between` | `IS NULL` and `BETWEEN` |
 | `ex07_order_by_top` | Sorting with `ORDER BY`, limiting rows with `TOP` |
+| `ex08_group_by_count` | `GROUP BY` with `COUNT` |
+| `ex09_group_by_aggregates` | `SUM`, `AVG`, `MIN`, `MAX` per group |
+| `ex10_having` | Filtering groups with `HAVING` |
+| `ex11_string_functions` | `LEFT`, `UPPER`, `LEN`, `CONCAT`, and why `NULL` breaks `+` |
+| `ex12_dates_dateadd` | `DATEADD`, `DATEDIFF`, date ranges |
+| `ex13_distinct_coalesce` | `DISTINCT`, `COALESCE`, `COUNT(*)` vs `COUNT(col)` |
 
-More exercises (grouping, aggregates, joins) will be added over time.
 
 ## Repository layout
 
