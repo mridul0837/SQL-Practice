@@ -30,7 +30,7 @@ You write the query underneath, run it, and compare with the model answer.
 | `AdventureWorks2025/` | The exercises. Each file states the problem, then has a blank space for your answer. |
 | `solutions/` | Model answers. Try the exercise first. |
 | `setup/` | How to connect (`connect.md`) and a smoke test (`smoke_test.sql`). |
-| `medical/` | Reserved for a future set of exercises on medical data (empty for now). |
+| `medical/` | Scripts to build a local `MedicalPractice` database from public medical datasets. Start at `medical/setup/manual/MANUAL.md`. Exercises will be added later. |
 
 ## Requirements
 
